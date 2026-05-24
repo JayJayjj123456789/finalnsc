@@ -50,7 +50,7 @@ function App() {
     <div style={{
       minHeight: '100vh', display: 'flex', flexDirection: 'column', overflowX: 'hidden',
       background: 'radial-gradient(circle at 50% -20%, #ffffff 0%, #f8f9fa 70%)',
-      color: '#191c1d', fontFamily: 'Inter, sans-serif', WebkitFontSmoothing: 'antialiased',
+      color: '#191c1d', fontFamily: 'Kanit, Inter, sans-serif', WebkitFontSmoothing: 'antialiased',
     }}>
       <Navbar />
       <main style={{
