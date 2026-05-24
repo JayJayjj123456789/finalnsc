@@ -1,0 +1,10 @@
+const fs = require("fs");
+const path = require("path");
+const BASE = path.resolve(__dirname, "src");
+const relPath = process.argv[2];
+const tmpFile = path.join(__dirname, "_tmp_content.txt");
+const content = fs.readFileSync(tmpFile, "utf8");
+const full = path.join(BASE, relPath);
+fs.mkdirSync(path.dirname(full), { recursive: true });
+fs.writeFileSync(full, content);
+console.log("OK", relPath);
