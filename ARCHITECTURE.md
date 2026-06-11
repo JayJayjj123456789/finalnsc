@@ -49,7 +49,7 @@
 │                                                                                │
 │  ┌─────────────────┐  ┌─────────────────┐  ┌─────────────────────────────┐   │
 │  │     Neo4j       │  │   Web Search    │  │     Fallback Data           │   │
-│  │  (Graph DB)     │  │   (Tavily/DDG)  │  │  (นครราชสีมา offline data)  │   │
+│  │  (Graph DB)     │  │   (Tavily/DDG)  │  │  (อำเภอพิมาย offline data)  │   │
 │  │                 │  │                 │  │                             │   │
 │  │ • Attractions   │  │ • POI details   │  │ • 12 Attractions            │   │
 │  │ • Accommodations│  │ • Reviews       │  │ • 8 Hotels                  │   │

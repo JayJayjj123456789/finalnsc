@@ -26,6 +26,15 @@ class Settings(BaseSettings):
     # OSRM (self-hosted or public)
     OSRM_URL: str = os.getenv("OSRM_URL", "http://router.project-osrm.org")
     
+    # Redis (Upstash)
+    UPSTASH_REDIS_REST_URL: str = os.getenv("UPSTASH_REDIS_REST_URL", "")
+    UPSTASH_REDIS_REST_TOKEN: str = os.getenv("UPSTASH_REDIS_REST_TOKEN", "")
+
+    # Langfuse
+    LANGFUSE_PUBLIC_KEY: str = os.getenv("LANGFUSE_PUBLIC_KEY", "")
+    LANGFUSE_SECRET_KEY: str = os.getenv("LANGFUSE_SECRET_KEY", "")
+    LANGFUSE_HOST: str = os.getenv("LANGFUSE_HOST", "https://cloud.langfuse.com")
+
     # Fallback
     USE_FALLBACK: bool = True
     
